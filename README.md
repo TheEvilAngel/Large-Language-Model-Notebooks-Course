@@ -1,3 +1,8 @@
+# This Repository is for My Personal Practice
+
+This repository is a copy of [[Large-Language-Model-Notebooks-Course](https://github.com/peremartra/Large-Language-Model-Notebooks-Course)], used for my personal learning and practice purposes.
+
+
 # Large Language Models Course: Learn by Doing LLM Projects.
 
 <table>
