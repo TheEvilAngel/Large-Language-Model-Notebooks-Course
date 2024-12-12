@@ -1,0 +1,35 @@
+[33mWARNING[0m:  [22-11-2024 09:59:20] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[32mINFO[0m:     [22-11-2024 09:59:20] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [22-11-2024 09:59:20] Starting component System
+[36mDEBUG[0m:    [22-11-2024 09:59:20] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [22-11-2024 09:59:20] Starting component SqliteDB
+[36mDEBUG[0m:    [22-11-2024 09:59:20] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [22-11-2024 09:59:20] Starting component Posthog
+[36mDEBUG[0m:    [22-11-2024 09:59:20] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [22-11-2024 09:59:20] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [22-11-2024 09:59:20] Starting component LocalExecutor
+[36mDEBUG[0m:    [22-11-2024 09:59:20] Starting component SegmentAPI
+[32mINFO[0m:     [22-11-2024 09:59:20] Started server process [[36m12599[0m]
+[32mINFO[0m:     [22-11-2024 09:59:20] Waiting for application startup.
+[32mINFO[0m:     [22-11-2024 09:59:20] Application startup complete.
+[32mINFO[0m:     [22-11-2024 09:59:20] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [22-11-2024 09:59:27] ::1:55848 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [22-11-2024 09:59:28] ::1:55856 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [22-11-2024 09:59:33] ::1:45212 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [22-11-2024 10:01:25] ::1:42702 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 10:01:25] ::1:42718 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 10:01:25] ::1:42718 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 10:01:30] ::1:54336 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/local_news_collection HTTP/1.1" 200
+[36mDEBUG[0m:    [22-11-2024 10:01:31] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [22-11-2024 10:01:31] ::1:54336 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/2345aff2-a8f0-471e-bc6f-650958633fbc/query HTTP/1.1" 200
+[32mINFO[0m:     [22-11-2024 10:06:18] Shutting down
+[32mINFO[0m:     [22-11-2024 10:06:19] Waiting for application shutdown.
+[36mDEBUG[0m:    [22-11-2024 10:06:19] Stopping component System
+[36mDEBUG[0m:    [22-11-2024 10:06:19] Stopping component SegmentAPI
+[36mDEBUG[0m:    [22-11-2024 10:06:19] Stopping component LocalExecutor
+[36mDEBUG[0m:    [22-11-2024 10:06:19] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [22-11-2024 10:06:19] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [22-11-2024 10:06:19] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [22-11-2024 10:06:19] Stopping component Posthog
+[36mDEBUG[0m:    [22-11-2024 10:06:19] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [22-11-2024 10:06:19] Stopping component SqliteDB
